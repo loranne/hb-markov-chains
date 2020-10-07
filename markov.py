@@ -16,7 +16,7 @@ def open_and_read_file(file_path):
 
     return contents
 
-print(open_and_read_file("green-eggs.txt"))
+# print(open_and_read_file("our_text.txt"))
 
 
 
@@ -70,7 +70,7 @@ def make_chains(text_string):
         
     return chains
 
-print(make_chains(open_and_read_file("green-eggs.txt")))
+#print(make_chains(open_and_read_file("our_text.txt")))
 
 def make_text(chains):
     """Return text from chains."""
